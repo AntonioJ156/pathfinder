@@ -1,0 +1,159 @@
+
+:root {
+    font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#botLeft::-webkit-scrollbar {
+	width: 0.5rem;
+}
+  
+#botLeft::-webkit-scrollbar-track {
+	background: #1d1d1d;
+}
+  
+#botLeft::-webkit-scrollbar-thumb {
+	background: #3273dc;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    font-variant: small-caps;
+    color: #000;
+    display: flex;
+    margin-bottom: 0;
+}
+
+#allColumns {
+    width: 100%;
+}
+
+/* Left side start */
+
+#side {
+    height: 100%;
+    background-color: #1d1d1d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#topLeft {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#topLeft p {
+    font-size: 56px;
+}
+
+#midLeft {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#botLeft {
+    width: 100%;
+    height: 62%;
+    font-size: 1.56rem;
+    overflow-y: auto;
+}
+
+#footLeft {
+    margin: auto;
+    margin-top: 0px;
+}
+
+/* Left side end */
+
+/* Right side start */
+
+#right {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#btnFile {
+    font-size: 18px;
+    background-color: white;
+    border-color: #1d1d1d;
+    color: #000;
+}
+
+#btnFile:hover {
+    background-color: #1d1d1d;
+    border-color: white;
+    color: white;
+}
+
+#pageTitle {
+    width: 62%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pageTitle p {
+    font-size: 64px;
+}
+
+#midRight {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.routesText {
+    margin-left: 10px;
+    margin-right: 8px;
+    display: none;
+}
+
+#routesSelector {
+    width: 19%;
+}
+
+#addOne {
+    width: 3%;
+}
+
+#subOne {
+    width: 3%;
+}
+
+/* Right side end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*____________________END*/

@@ -1,0 +1,22 @@
+Ejecutar en algún servidor local.
+
+Si no funciona en el servidor local puede entrar a la siguiente página:
+
+pathfinder-ai.web.app
+
+ahí está el mismo proyecto.
+
+Archivos:
+
+Dentro de la caprtea db se encuentra el archivo cities.json que es en donde se
+agregan y quitan ciudades, si modifica el archivo y quiere ver los cambios tiene
+que recargar la página.
+
+Dentro de la misma carpeta se encuentra el archivo backup.json, este archivo no
+es utilizado por el sitio, solo es un archivo de respaldo por si se pierde el
+archivo anterior.
+
+En la carpeta raíz se encuentra el archivo pathfiner.js, este archivo es en el que
+se hace la búsqueda.
+
+Los demás archivo y carpetas son para la construcción del sitio web.

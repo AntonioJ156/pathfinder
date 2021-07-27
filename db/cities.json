@@ -1,0 +1,381 @@
+[
+    {
+        "City": "Aguascalientes, Ags.",
+        "Latitude": 21.8818,
+        "Longitude": -102.291,
+        "Links": [
+            "Zacatecas, Zac.",
+            "San Luis Potosí, S.L.P.",
+            "Guanajuato, Gto.",
+            "Guadalajara, Jal."
+        ],
+        "Distance": [
+            173.85,
+            137.22,
+            156.99,
+            174.23
+        ]
+    },
+    {
+        "City": "Campeche, Camp.",
+        "Latitude": 19.8454,
+        "Longitude": -90.5237,
+        "Links": [
+            "Chetumal, Q.R.",
+            "Mérida, Yuc.",
+            "Villahermosa, Tab.",
+            "Tuxtla Gutiérrez, Chis."
+        ],
+        "Distance": [
+            200.62,
+            262.64,
+            299.35,
+            375.07
+        ]
+    },
+    {
+        "City": "Tuxtla Gutiérrez, Chis.",
+        "Latitude": 16.75,
+        "Longitude": -93.1167,
+        "Links": [
+            "Campeche, Camp.",
+            "Villahermosa, Tab.",
+            "Chetumal, Q.R.",
+            "Oaxaca, Oax."
+        ],
+        "Distance": [
+            375.07,
+            138.61,
+            544.89,
+            396.91
+        ]
+    },
+    {
+        "City": "Ciudad de México, C.D.Mx.",
+        "Latitude": 19.4978,
+        "Longitude": -99.1269,
+        "Links": [
+            "Puebla, Pue.",
+            "Xalapa, Ver.",
+            "Chilpancingo, Gro.",
+            "Morelia, Mich.",
+            "Querétaro, Qro."
+        ],
+        "Distance": [
+            104.75,
+            235.26,
+            207.05,
+            217.86,
+            189.87
+        ]
+    },
+    {
+        "City": "Saltillo, Coah.",
+        "Latitude": 25.4333,
+        "Longitude": -101,
+        "Links": [
+            "Ciudad Victoria, Tamps.",
+            "San Luis Potosí, S.L.P.",
+            "Zacatecas, Zac.",
+            "Duango, Dgo."
+        ],
+        "Distance": [
+            265.43,
+            366.83,
+            321.76,
+            394.30
+        ]
+    },
+    {
+        "City": "Colima, Col.",
+        "Latitude": 19.2433,
+        "Longitude": -103.725,
+        "Links": [
+            "Guadalajara, Jal."
+        ],
+        "Distance": [
+            178.65
+        ]
+    },
+    {
+        "City": "Duango, Dgo.",
+        "Latitude": 24.0277,
+        "Longitude": -104.653,
+        "Links": [
+            "Saltillo, Coah.",
+            "Culiacán, Sin.",
+            "Zacatecas, Zac.",
+            "Tepic, Nay."
+        ],
+        "Distance": [
+            394.30,
+            255.08,
+            263.60,
+            387.13
+        ]
+    },
+    {
+        "City": "Guanajuato, Gto.",
+        "Latitude": 21.0181,
+        "Longitude": -101.258,
+        "Links": [
+            "Aguascalientes, Ags.",
+            "San Luis Potosí, S.L.P.",
+            "Querétaro, Qro.",
+            "Morelia, Mich.",
+            "Guadalajara, Jal."
+        ],
+        "Distance": [
+            156.99,
+            131.59,
+            85.49,
+            141.21,
+            232.94
+        ]
+    },
+    {
+        "City": "Chilpancingo, Gro.",
+        "Latitude": 17.55,
+        "Longitude": -99.5,
+        "Links": [
+            "Ciudad de México, C.D.Mx.",
+            "Puebla, Pue."
+        ],
+        "Distance": [
+            207.05,
+            216.14
+        ]
+    },
+    {
+        "City": "Guadalajara, Jal.",
+        "Latitude": 20.6736,
+        "Longitude": -103.344,
+        "Links": [
+            "Aguascalientes, Ags.",
+            "Colima, Col.",
+            "Guanajuato, Gto.",
+            "Morelia, Mich.",
+            "Tepic, Nay."
+        ],
+        "Distance": [
+            174.23,
+            178.65,
+            232.94,
+            249.30,
+            183.75
+        ]
+    },
+    {
+        "City": "Morelia, Mich.",
+        "Latitude": 19.7006,
+        "Longitude": -101.186,
+        "Links": [
+            "Ciudad de México, C.D.Mx.",
+            "Guanajuato, Gto.",
+            "Guadalajara, Jal.",
+            "Querétaro, Qro."
+        ],
+        "Distance": [
+            217.86,
+            141.21,
+            249.30,
+            130.37
+        ]
+    },
+    {
+        "City": "Tepic, Nay.",
+        "Latitude": 21.5039,
+        "Longitude": -104.895,
+        "Links": [
+            "Duango, Dgo.",
+            "Guadalajara, Jal."
+        ],
+        "Distance": [
+            387.13,
+            183.75
+        ]
+    },
+    {
+        "City": "Oaxaca, Oax.",
+        "Latitude": 17.0669,
+        "Longitude": -96.7203,
+        "Links": [
+            "Tuxtla Gutiérrez, Chis.",
+            "Villahermosa, Tab.",
+            "Puebla, Pue."
+        ],
+        "Distance": [
+            396.91,
+            425.57,
+            269.09
+        ]
+    },
+    {
+        "City": "Puebla, Pue.",
+        "Latitude": 19.0413,
+        "Longitude": -98.2062,
+        "Links": [
+            "Ciudad de México, C.D.Mx.",
+            "Chilpancingo, Gro.",
+            "Oaxaca, Oax.",
+            "Xalapa, Ver.",
+            "Villahermosa, Tab."
+        ],
+        "Distance": [
+            104.75,
+            216.14,
+            269.09,
+            146.63,
+            568.60
+        ]
+    },
+    {
+        "City": "Querétaro, Qro.",
+        "Latitude": 20.5931,
+        "Longitude": -100.392,
+        "Links": [
+            "Ciudad de México, C.D.Mx.",
+            "Guanajuato, Gto.",
+            "Morelia, Mich.",
+            "San Luis Potosí, S.L.P."
+        ],
+        "Distance": [
+            189.87,
+            85.49,
+            130.37,
+            181.10
+        ]
+    },
+    {
+        "City": "Chetumal, Q.R.",
+        "Latitude": 18.5145,
+        "Longitude": -88.3005,
+        "Links": [
+            "Campeche, Camp.",
+            "Tuxtla Gutiérrez, Chis.",
+            "Mérida, Yuc.",
+            "Villahermosa, Tab."
+        ],
+        "Distance": [
+            200.62,
+            544.89,
+            307.43,
+            492.94
+        ]
+    },
+    {
+        "City": "San Luis Potosí, S.L.P.",
+        "Latitude": 22.1565,
+        "Longitude": -100.986,
+        "Links": [
+            "Aguascalientes, Ags.",
+            "Saltillo, Coah.",
+            "Guanajuato, Gto.",
+            "Querétaro, Qro.",
+            "Zacatecas, Zac.",
+            "Ciudad Victoria, Tamps."
+        ],
+        "Distance": [
+            137.22,
+            366.83,
+            131.59,
+            181.10,
+            248.94,
+            258.95
+        ]
+    },
+    {
+        "City": "Culiacán, Sin.",
+        "Latitude": 24.8042,
+        "Longitude": -107.431,
+        "Links": [
+            "Duango, Dgo."
+        ],
+        "Distance": [
+            255.08
+        ]
+    },
+    {
+        "City": "Villahermosa, Tab.",
+        "Latitude": 18.0018,
+        "Longitude": -92.933,
+        "Links": [
+            "Campeche, Camp.",
+            "Tuxtla Gutiérrez, Chis.",
+            "Oaxaca, Oax.",
+            "Puebla, Pue.",
+            "Chetumal, Q.R.",
+            "Xalapa, Ver."
+        ],
+        "Distance": [
+            299.35,
+            138.61,
+            425.57,
+            568.60,
+            492.94,
+            452.64
+        ]
+    },
+    {
+        "City": "Ciudad Victoria, Tamps.",
+        "Latitude": 23.7417,
+        "Longitude": -99.1459,
+        "Links": [
+            "Saltillo, Coah.",
+            "San Luis Potosí, S.L.P.",
+            "Xalapa, Ver."
+        ],
+        "Distance": [
+            265.43,
+            258.95,
+            521.58
+        ]
+    },
+    {
+        "City": "Xalapa, Ver.",
+        "Latitude": 19.5426,
+        "Longitude": -96.9137,
+        "Links": [
+            "Ciudad de México, C.D.Mx.",
+            "Puebla, Pue.",
+            "Villahermosa, Tab.",
+            "Ciudad Victoria, Tamps."
+        ],
+        "Distance": [
+            235.26,
+            146.63,
+            452.64,
+            521.58
+        ]
+    },
+    {
+        "City": "Mérida, Yuc.",
+        "Latitude": 20.97,
+        "Longitude": -89.62,
+        "Links": [
+            "Campeche, Camp.",
+            "Chetumal, Q.R."
+        ],
+        "Distance": [
+            262.64,
+            307.43
+        ]
+    },
+    {
+        "City": "Zacatecas, Zac.",
+        "Latitude": 22.76843,
+        "Longitude": -102.58141,
+        "Links": [
+            "Aguascalientes, Ags.",
+            "Saltillo, Coah.",
+            "Duango, Dgo.",
+            "San Luis Potosí, S.L.P."
+        ],
+        "Distance": [
+            173.85,
+            321.76,
+            263.60,
+            248.94
+        ]
+    }
+]

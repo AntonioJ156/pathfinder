@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinder</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bulma.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+    <div id="container">
+        <div class="columns" id="allColumns">
+            <div class="column is-one-quarter" id="side">
+                <div id="topLeft">
+                    <p>Nodes</p>
+                </div>
+                <div id="midLeft">
+                    <button class="button is-light is-outlined" id="findPath" disabled>Find Path</button>
+                </div>
+                <div class="content" id="botLeft">
+                  <ol type="1" id="nodesList">
+                  </ol>
+                </div>
+                <div id="footLeft"></div>
+            </div>
+            <div class="column is-three-quarters" id="right">
+                <div id="pageTitle">
+                    <p>Pathfinder</p>
+                </div>
+
+                <div id="midRight">
+                    <input class="input rsItems" type="text" placeholder="Route #" id="routesSelector" disabled>
+                    <button class="button is-dark is-outlined rsItems" id="subOne" disabled>
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <button class="button is-dark is-outlined rsItems" id="addOne" disabled>
+                      <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="routesText" id="numRoutes">Routes available:</div>
+                    <div class="routesText" id="minRoute">Shortest path:</div>
+                    <div class="routesText" id="currRoute">Current dist:</div>
+                </div>
+
+                <div id="canvasContainer">
+                    <div id="canvas"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="pathModal">
+        <div class="modal-background pathModalClose"></div>
+        <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">Find Path</p>
+            </header>
+            <section class="modal-card-body">
+                <p class="is-size-4">From:</p>
+                <input class="input" type="text" placeholder="Origin" id="pathFrom">
+                <div id="pathFromAutocomplete">
+
+                </div>
+                <p class="is-size-4">To:</p>
+                <input class="input" type="text" placeholder="Destination" id="pathTo">
+                <div id="pathToAutocomplete">
+
+                </div>
+            </section>
+            <footer class="modal-card-foot">
+                <button class="button is-link" id="findPathModal">Find</button>
+                <button class="button pathModalClose">Cancel</button>
+            </footer>
+        </div>
+        <button class="modal-close is-large pathModalClose" aria-label="close"></button>
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script type="text/javascript" src="js/jque.js"></script>
+    <script type="text/javascript" src="js/p5.min.js"></script>
+    <script type="text/javascript" src="pathfinder.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
